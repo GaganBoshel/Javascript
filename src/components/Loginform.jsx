@@ -62,7 +62,15 @@ export default function LoginForm() {
           <a href="#">Forgot Password?</a>
         </div>
 
-        <button type="submit">Login</button>
+        <button className="submit-button" type="submit">
+          <span>Login</span>
+          <span className="star-1" aria-hidden="true" />
+          <span className="star-2" aria-hidden="true" />
+          <span className="star-3" aria-hidden="true" />
+          <span className="star-4" aria-hidden="true" />
+          <span className="star-5" aria-hidden="true" />
+          <span className="star-6" aria-hidden="true" />
+        </button>
 
         <p className="register-link">
           Don&apos;t have an account? <a href="#">Sign Up</a>
